@@ -1,5 +1,9 @@
-const express = require("express");
-const carlink = express();
-const port = 3000;
-carlink.listen(port);
-console.log("Running on http://localhost:"+port);
+const http = require('http');
+
+const port = process.env.PORT || 3000;
+
+const carlink = require('./carlink');
+
+const server = http.createServer(carlink);
+
+server.listen(port);
