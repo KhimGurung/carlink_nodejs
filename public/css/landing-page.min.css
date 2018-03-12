@@ -1,0 +1,353 @@
+body{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif}
+
+h1,h2,h3,h4,h5,h6{font-family:Lato,'Helvetica Neue',Helvetica,Arial,sans-serif;font-weight:700}
+
+header.masthead{
+	position:relative;
+	background-color:#343a40;
+	background:url(../img/bg-masthead.jpg) no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	padding-top:3rem;
+	padding-bottom:4rem;
+	}
+
+header.masthead .overlay{
+	position:absolute;
+	background-color:#212529;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	opacity:.3
+	}
+
+header.page{
+	padding-top:1rem;
+	padding-bottom:1rem;
+}
+
+header.page .overlay{
+	opacity: .4;
+	text-decoration: underline;
+	}
+
+header.masthead h2{
+	font-size:2rem;
+	}
+
+@media (min-width:768px){
+	header.masthead{
+		padding-top:3rem;
+		padding-bottom:3rem;
+		}
+
+	header.masthead h1{
+		font-size:3rem
+		}
+	header.masthead .home-banner{
+		padding-top: 16rem;
+		}
+	}
+
+.showcase .showcase-text{
+	padding:3rem
+	}
+
+.showcase .showcase-img{
+	min-height:30rem;
+	background-size:cover
+	}
+
+@media (min-width:768px){
+	.showcase .showcase-text{
+		padding:7rem
+		}
+	}
+
+.features-icons{
+	padding-top:3rem;
+	padding-bottom:7rem
+	}
+
+.features-icons .features-icons-item{
+	max-width:20rem
+	}
+
+.features-icons .features-icons-item .features-icons-icon{height:7rem}
+
+.features-icons .features-icons-item .features-icons-icon i{font-size:4.5rem}
+
+.features-icons .features-icons-item:hover .features-icons-icon i{font-size:5rem}
+
+.testimonials{padding-top:7rem;padding-bottom:7rem}
+
+.testimonials .testimonial-item{max-width:18rem}
+
+.testimonials .testimonial-item img{max-width:12rem;box-shadow:0 5px 5px 0 #adb5bd}
+
+.call-to-action{
+	position:relative;
+	background-color:#343a40;
+	background:url(../img/bg-masthead.jpg) no-repeat center center;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	padding-top:7rem;
+	padding-bottom:7rem
+	}
+
+.call-to-action .overlay{
+	position:absolute;
+	background-color:#212529;
+	height:100%;
+	width:100%;
+	top:0;
+	left:0;
+	opacity:.3
+	}
+
+footer.footer{padding-top:4rem;padding-bottom:4rem}
+
+
+.panel-body .input-group-addon{
+	padding-left: 14px;
+	padding-top: 7px;
+	width: 42px;
+	background-color: #007bff;
+	padding-right: 10px;
+	color: white;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.fare .input-group-addon{
+	padding-left: 14px;
+	padding-top: 7px;
+	background-color: #007bff;
+	padding-right: 10px;
+	color: white;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.fare input{
+	border-top-left-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
+
+.fa-tag,
+.fa-lock,
+.fa-circle-o-notch{
+	color: white;
+}
+
+.home-banner{
+	padding-top: 0rem;
+}
+
+/*navbar*/
+.main-menu li{
+	padding-right: 10px;
+	padding-top: 5px;
+}
+
+.menu{
+	font-size:25px;
+	color:blue;
+}
+
+
+@media (min-width:768px){
+	.panel-body{
+		background-color: #dcdcde;
+		padding: 2em;
+		}
+
+	.page-container{
+		margin-top: 3em;
+		margin-bottom: 3em;
+		}
+}
+
+@media (max-width:767px){
+	.sm-hide{
+		display: none;
+		}
+
+	.page-container{
+		margin-top: 2em;
+		margin-bottom: 3em;
+		}
+}
+
+.register .row .slogan-img img{
+	max-width: 100%;
+}
+
+.register{
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+
+.slogan-img{
+	border-style: solid;
+	border-color:blue;
+	border-radius: 60px;
+	padding: 21px;
+	margin-top: 30px;
+	display: flex;
+	align-items: center;
+}
+
+.label{
+	display: flex;
+	align-items: center;
+	font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 1;
+    color: green;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+
+
+
+/*css for trip register form*/
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+  background-color: #ffdddd;
+}
+
+/* Hide all steps by default: */
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #4CAF50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+  height: 30px;
+  width: 30px;
+  background-color: #9c9d9e;
+  border: none;
+  opacity: 1;
+  padding: 1px;
+  color: #ffff;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.step-container{
+	display: flex;
+	flex-direction: row;
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 10px;
+} 
+.step.active {
+  opacity: 1;
+  background-color: #007bff;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+  background-color: #ffffff;
+  border: solid 2px #007bff;
+  color: #007bff;
+}
+ .finish:before {
+    top: 14px;
+    content: " ";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    background-color: #007bff;
+    border-radius: 3px;
+    z-index:-1;
+   }
+
+
+ .tab label{
+ 	margin-bottom: 0px;
+ }
+
+ .fare{
+ 	background-color: #dae0e5 !important;
+ 	padding: 10px;
+ 	align-items:center;
+ 	margin-top: 10px;
+ 	border: 1px solid #818182;
+ 	margin-right: 0px !important;
+ 	margin-left: 0px !important;
+ }
+
+ .form-row .fa{
+ 	color: #007bff;
+ } 
+
+ .form-group{
+ 	overflow: hidden;
+ }
+
+
+
+ .tab-title{
+ 	background-color: #007bff;
+ 	color: #ffffff;
+ }
+
+h6 {
+  position: relative;
+  height: 24px;
+}
+
+h6 span {
+  background: #fff;
+  padding: 5px 10px;
+  position: relative;
+  z-index: 1;
+}
+
+h6:before {
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background-color: #007bff;
+}
+
+/*trip register login css*/
+
+.tripRegisterLogin{
+	text-align: center;
+	padding: 30px;
+}
+
+.tripRegisterLogin i{
+	color: #0062cc;
+	font-size: 100px;
+}
+
+.agreeTerm{
+	font-size: 14px;
+}
