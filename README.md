@@ -5,7 +5,7 @@ A simple web application in HTML, CSS (BootStrap) and NodeJS inspired by BlaBla 
 **Screenshot**
 
 Landing page
-<img src="./public/img/landing_page.png" height="600" />
+<img src="./public/img/landing_page.png" height="1000" />
 
 Add Ride page
 <img src="./public/img/add_ride.png" height="600" />
