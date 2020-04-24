@@ -1,4 +1,6 @@
-# carlink_nodejs
+# carlink
+
+A simple web application in HTML, CSS (BootStrap) and NodeJS inspired by BlaBla car.
 
 **Screenshot**
 
