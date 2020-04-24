@@ -1,9 +1,8 @@
 # carlink_nodejs
 
 **Screenshot**
-<table>
-  <tr>
-    <td><img src="./public/img/landing_page.png" width="300" /></td>
-    <td><img src="./public/img/add_ride.png" width="300" /></td
-  </tr>
- </table>
+Landing page
+<img src="./public/img/landing_page.png" height="600" />
+
+Add Ride page
+<img src="./public/img/add_ride.png" height="600" />
